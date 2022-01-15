@@ -22,7 +22,7 @@ main {
 main > section img {
     height: 300px;
     margin: 15px 0;
-    width: 200px;
+    width: 250px;
 }
 
 main section button {
@@ -31,7 +31,7 @@ main section button {
     border-radius: 30px;
     color: black;
     font-family: Sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: -0.6px;
     line-height: 15px;
@@ -41,4 +41,4 @@ main section button {
 #detalhes-container {
     font-weight: bold;
     list-style-type: none; 
-}
+} 
