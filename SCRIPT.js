@@ -10,7 +10,7 @@ gerarValorAleatorio = () => {
 
 pegarPersonagem = () =>{
     let numeroAleatorio = gerarValorAleatorio();
-    return fetch(`https://rickandmortyapi.com/api/character/3`, {
+    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
        method: 'GET',
        headers: {
            Accept: 'application/json',
@@ -25,4 +25,5 @@ pegarPersonagem = () =>{
     
     });
 }
-botao.onclick = pegarPersonagem 
+botao.onclick = pegarPersonagem;
+    
